@@ -45,5 +45,8 @@ Upon completion of the resistance optimization phase, a Gaussian Process (GP) su
 # interative
 python step3_GFopt.py
 ```
-
 Through this two-phase framework, the pipeline effectively identifies laser processing conditions that yield strain-sensitive resistors with low resistance and high gauge factor, achieving both signal quality and sensitivity requirements for downstream sensor applications.
+# Data
+Data needed for each phase is in the folder ***./data***
+# Tools
+These scripts also support the visualization of the optimization process, including the convergence behavior of the Gaussian Process (GP) models, as well as the embedding and visualization of high-dimensional laser parameter spaces. Such visual analytics facilitate intuitive understanding of model performance and decision boundaries, thereby enhancing the interpretability and traceability of the optimization procedure. Details can be seen in the folder ***./visualization and tools***
